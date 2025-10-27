@@ -18,9 +18,11 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-linear-to-br from-black via-gray-900 to-gray-800">
       <Navigation activeSection={activeSection} scrollToSection={scrollToSection} />
-      
       <Hero scrollToSection={scrollToSection} />
- 
+      <About />
+      <Experience />
+      <Projects />
+      <Contact />
     </main>
   );
 }
