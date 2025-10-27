@@ -24,3 +24,10 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+.clip-bat-ears {
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.clip-bat-wings {
+  clip-path: polygon(25% 0%, 75% 0%, 100% 100%, 0% 100%);
+}
