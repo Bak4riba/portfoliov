@@ -7,10 +7,10 @@ interface HeroProps {
   scrollToSection: (sectionId: string) => void;
 }
 
-export default function Hero({ scrollToSection }: HeroProps) {
+export default function Hero({  }: HeroProps) {
   return (
     <Section id="home" className="pt-20">
-      <div className="text-center">
+      <div className="">
         
         <div className="relative z-10">
           {/* Bat-Símbolo */}
@@ -19,17 +19,18 @@ export default function Hero({ scrollToSection }: HeroProps) {
           </div>
 
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
-            <span className="text-yellow-400">THE DARK KNIGHT</span>
+            <span className="text-yellow-400">MATHEUS BAKAUS</span>
             <br />
-            <span className="text-3xl md:text-5xl">DEVELOPER</span>
+            <span className="text-3xl md:text-5xl">WEB DEVELOPER</span>
           </h1>
           
-          <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto">
-            I am vengeance, I am the night, I am a Full Stack Developer protecting Gotham&apos;s digital world.
+          <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-2xl ">
+              React | TypeScript | Next.js 
           </p>
 
-          <div className="flex gap-4 justify-center flex-wrap">
-
+          <div className="flex gap-4 flex-wrap">
+            Focado em criar interfaces modernas com código limpo e boas práticas. 
+            Experiência em projetos e aplicações de grande escala.
           </div>
 
 
