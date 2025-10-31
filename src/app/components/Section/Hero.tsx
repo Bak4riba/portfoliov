@@ -28,9 +28,10 @@ export default function Hero({  }: HeroProps) {
               React | TypeScript | Next.js 
           </p>
 
-          <div className="flex gap-4 flex-wrap">
-            Focado em criar interfaces modernas com código limpo e boas práticas. 
-            Experiência em projetos e aplicações de grande escala.
+          <div className="flex gap-4 flex-wrap md:text-2xl">
+            Olá! Sou Matheus Bakaus, um desenvolvedor web apaixonado por criar experiências digitais incríveis.
+            Com habilidades em React, TypeScript e Next.js, estou sempre em busca de novos desafios para aprimorar minhas habilidades e contribuir para projetos inovadores. 
+            Vamos construir algo incrível juntos!
           </div>
 
 

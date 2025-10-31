@@ -6,35 +6,35 @@ export default function About() {
   return (
     <Section id="about" background="alternate">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold text-yellow-400 mb-12 text-center">About The Batman</h2>
+        <h2 className="text-4xl md:text-5xl font-bold text-yellow-400 mb-12 text-center">Sobre mim</h2>
         
         <div className="grid md:grid-cols-2 gap-12">
           {/* Bruce Wayne */}
           <div className="bg-gray-800 p-8 rounded-xl border border-yellow-400/20 hover:border-yellow-400/40 transition-all duration-300 group hover:transform hover:-translate-y-1">
-            <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-yellow-400 transition-colors duration-300">Bruce Wayne</h3>
+            <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-yellow-400 transition-colors duration-300">Educação e Ensino</h3>
             <p className="text-gray-300 mb-4">
-              By day, I&apos;m a tech entrepreneur focused on innovative solutions for Gotham&apos;s digital infrastructure. 
-              With years of experience in software development and team leadership.
+              Sou professor de Física, Matemática e Programação, apaixonado por ensinar e compartilhar conhecimento.
+            </p>
+            <p className="text-gray-300 mb-4">
+              Minhas qualificações em ensino incluem:
             </p>
             <ul className="text-gray-300 space-y-2">
-              <li>🎓 Computer Science Degree</li>
-              <li>💼 5+ years in Tech Industry</li>
-              <li>🚀 Startup Experience</li>
-              <li>🎯 Project Management</li>
-              <li>🌐 International Experience</li>
+              <li>🎓 Licenciatura em Física</li>
+              <li>🎓 Pós graduação em Ciência e Tecnologia</li>
+              <li>💼 2+ Lecionado em Escolas Estaduais do Paraná</li>
             </ul>
           </div>
 
           {/* Batman */}
           <div className="bg-gray-800 p-8 rounded-xl border border-yellow-400/20 hover:border-yellow-400/40 transition-all duration-300 group hover:transform hover:-translate-y-1">
-            <h3 className="text-2xl font-bold text-yellow-400 mb-4">Batman Skills</h3>
+            <h3 className="text-2xl font-bold text-yellow-400 mb-4">Desenvolvimento e TI</h3>
             <p className="text-gray-300 mb-4">
-              By night, I protect Gotham&apos;s digital world from cyber threats and build robust, scalable applications.
+              Sou desenvolvedor full stack com experiência em diversas tecnologias e um forte foco em Desenvolvimento FrontEnd
             </p>
             <div className="grid grid-cols-1 gap-3 text-gray-300">
               <div className="flex items-center space-x-2">
-                <span>🦇</span>
-                <span>Full Stack Development (React, Node.js, Next.js)</span>
+                <span></span>
+                <span>FrontEnd: Experiencias com projetos em ReactJS, Nextjs, Typescript</span>
               </div>
               <div className="flex items-center space-x-2">
                 <span>🔒</span>
