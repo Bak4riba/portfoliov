@@ -11,7 +11,7 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-12">
           {/* Bruce Wayne */}
           <div className="bg-gray-800 p-8 rounded-xl border border-yellow-400/20 hover:border-yellow-400/40 transition-all duration-300 group hover:transform hover:-translate-y-1">
-            <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-yellow-400 transition-colors duration-300">Educação e Ensino</h3>
+            <h3 className="text-2xl font-bold text-yellow-400 mb-4">Educação e Ensino</h3>
             <p className="text-gray-300 mb-4">
               Sou professor de Física, Matemática e Programação, apaixonado por ensinar e compartilhar conhecimento.
             </p>
@@ -33,24 +33,28 @@ export default function About() {
             </p>
             <div className="grid grid-cols-1 gap-3 text-gray-300">
               <div className="flex items-center space-x-2">
-                <span></span>
+                <span>💻</span>
                 <span>FrontEnd: Experiencias com projetos em ReactJS, Nextjs, Typescript</span>
+              </div>
+                            <div className="flex items-center space-x-2">
+                <span>⚙️</span>
+                <span>BackEnd: Experiencias com projetos como criação de APIs e toda a orquestra por baixo dos panos de um site</span>
               </div>
               <div className="flex items-center space-x-2">
                 <span>🔒</span>
-                <span>Cybersecurity & Best Practices</span>
+                <span>CIbersegurança e Boas práticas</span>
               </div>
               <div className="flex items-center space-x-2">
                 <span>⚡</span>
-                <span>Performance Optimization</span>
+                <span>+10 anos atuando com Infraestrutura de TI</span>
               </div>
               <div className="flex items-center space-x-2">
                 <span>🎨</span>
-                <span>UI/UX Design & Responsive Layouts</span>
+                <span>UI/UX Design & Layouts Responsivos</span>
               </div>
               <div className="flex items-center space-x-2">
                 <span>🚀</span>
-                <span>DevOps & Cloud Infrastructure</span>
+                <span>+10 anos de experiencia com Suporte Técnico </span>
               </div>
             </div>
           </div>
